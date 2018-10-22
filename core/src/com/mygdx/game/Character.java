@@ -2,8 +2,8 @@ package com.mygdx.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
-import com.badlogic.gdx.audio.Music;
-import com.badlogic.gdx.graphics.Texture;
+//import com.badlogic.gdx.audio.Music;
+//import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Rectangle;
 
 /*
@@ -11,11 +11,12 @@ import com.badlogic.gdx.math.Rectangle;
  */
 public class Character {
 	//variables for textures and music
-	private Texture Blizzard;
+	/*private Texture Blizzard;
 	private Texture stage;
 	private Music stageMusic;
+	*/
 
-
+	@SuppressWarnings("unused")
 	private float x;
 
 	void create() {

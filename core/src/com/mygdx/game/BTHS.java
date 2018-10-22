@@ -26,7 +26,7 @@ public class BTHS extends ApplicationAdapter {
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false,w,h);
 		camera.update();
-		level1 = new TmxMapLoader().load("1-1v2.tmx");
+		level1 = new TmxMapLoader().load("Level1.tmx");
 		tiledMapRenderer = new OrthogonalTiledMapRenderer(level1);
 		batch = new SpriteBatch();
 		img = new Texture("blizzRight.png");

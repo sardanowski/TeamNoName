@@ -20,6 +20,7 @@ public class BTHS extends ApplicationAdapter {
 	
 	@Override
 	public void create () {
+		//helloworld
 		float w = Gdx.graphics.getWidth();
 		float h = Gdx.graphics.getHeight(); 
 		
